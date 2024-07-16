@@ -60,7 +60,7 @@ public class TimeSync extends JavaPlugin {
         int totalRealMinutes = (realHour * 60) + minute;
         double proportionOfDay = (double) totalRealMinutes / (24 * 60);
         long timeTicks = (long) (proportionOfDay * minecraftDayTicks);
-        timeTicks = timeTicks % minecraftDayTicks - 5980; // Adjust the result
+        timeTicks = timeTicks % minecraftDayTicks - 6000; // Adjust the result
         if (timeTicks < 0) {
             timeTicks += minecraftDayTicks;
         }

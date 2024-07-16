@@ -3,10 +3,4 @@ worlds:
   world:
     enabled: true
     timezone: "Europe/Berlin"
-  world_nether:
-    enabled: false
-    timezone: "Europe/Berlin"
-  world_the_end:
-    enabled: false
-    timezone: "Europe/Berlin"
   # Add worlds if needed
