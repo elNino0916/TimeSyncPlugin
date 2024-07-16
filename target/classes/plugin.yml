@@ -1,0 +1,6 @@
+name: TimeSync
+version: '1.1'
+main: de.elnino0916.TimeSync.TimeSync
+api-version: '1.20'
+author: elNino0916
+description: Syncronisiert die Ingamezeit mit der echten Zeit.
